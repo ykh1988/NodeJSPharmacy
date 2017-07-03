@@ -1,0 +1,13 @@
+{
+  "name": "node-jspharmacy",
+  "version": "0.0.0",
+  "description": "NodeJSPharmacy",
+  "main": "server.js",
+  "author": {
+    "name": "yahyak"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "vash": "^0.12.2"
+  }
+}
