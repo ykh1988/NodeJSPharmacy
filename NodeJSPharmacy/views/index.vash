@@ -1,0 +1,100 @@
+﻿@html.extend("layout", function(model){
+	@html.block("body", function(model){
+		<table width="914" cellpadding="0" cellspacing="0" border="0" align="center">
+        <tr valign="top">
+            <td width="574">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td height="29" colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <img src="Images/med.jpg" width="107px" style="padding: 24px 9px 24px 21px" align="left" /><div
+                                class="hom1" style="padding-top: 14px">
+                                <img src="Images/welcome.gif" hspace="2" vspace="13" /><br />
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie
+                                lacus. Aenean nonummy hendrerit mauris. Phasellusporta. Fusce suscipit varius mi.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                                mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus
+                                nec, luctus a, lorem. Maecenas tristique orci ac sem. Fusce feugiat malesuada odio.
+                                Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. <a href="#" class="hom4"
+                                        style="color: #0089E4">more</a></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="26" bgcolor="#0089E4">
+                            <img src="Images/partner_left.gif" />
+                        </td>
+                        <td width="537" bgcolor="#f4f4f4">
+                            <span class="hom1" style="padding-left: 22px"><b>Our Partners</b></span>
+                        </td>
+                        <td width="11">
+                            <img src="Images/partner_right.gif" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="38" colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <img src="Images/img_bot1.gif" hspace="14" /><img src="Images/img_bot2.gif" hspace="20" /><img
+                                src="Images/img_bot3.gif" hspace="10" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="41" align="right">
+                <img src="Images/img_line1.gif" />
+            </td>
+            <td width="291">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td height="299">
+                            <div class="hom1" style="padding: 0 14px">
+                                <span style="color: #0089E4"><b>14/03/03</b></span><br />
+                                <span style="color: #0089E4"><b>Vestibulum iaculis lacinia est.</b></span> Proin
+                                dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit. Pellentesque sed dolor<br />
+                                &nbsp;<br />
+                                <span style="color: #0089E4"><b>14/03/03</b></span><br />
+                                <span style="color: #0089E4"><b>Vestibulum iaculis lacinia est.</b></span> Proin
+                                dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit. Pellentesque sed dolor<br />
+                                &nbsp;<br />
+                                <span style="color: #0089E4"><b>14/03/03</b></span><br />
+                                <span style="color: #0089E4"><b>Vestibulum iaculis lacinia est.</b></span> Proin
+                                dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit. Pellentesque sed dolor</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="84" style="background: url(Images/bottom.gif) no-repeat left">
+                            <div class="hom2" style="padding-left: 28px">
+                                Toll Free Phone: +1 (800) 1234567<br />
+                                porta vel, scelerisque</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="35">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="8">
+                <img src="Images/img_line2.gif" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+                <br />
+            </td>
+        </tr>
+    </table>
+	})
+})

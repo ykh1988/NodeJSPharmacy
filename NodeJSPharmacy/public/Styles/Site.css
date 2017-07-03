@@ -1,0 +1,14 @@
+body { padding:0px; margin:0px; background:url(../Images/bg-top1.png); text-align:left}
+
+.hom1 { font-family:Tahoma; font-size:12px; color:#000000}
+a.hom1 {text-decoration:underline}
+a.hom1:hover {text-decoration:none}
+
+.hom2 { font-family:Tahoma; font-size:12px; color:#FFFFFF; font-weight:bold}
+
+.hom3 { font-family:Tahoma; font-size:12px; color:#000000}
+a.hom3 {text-decoration:none}
+a.hom3:hover {text-decoration:none;}
+
+.hom4 { font-family:Tahoma; font-size:12px; color:#b92d1a}
+a.hom4 { text-decoration:none}

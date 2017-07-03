@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <title>@model.title</title>
+</head>
+<body>
+    <table width="914" cellpadding="0" cellspacing="0" border="0" align="center" style="background-color: #ffffff;
+        margin-top: 20px;">
+        <tr>
+            <td rowspan="3" width="150" valign="bottom">
+                <a href="Default.aspx">
+                    <img src="Images/logo.jpg" border="0" vspace="9" hspace="39" width="180px" height="150px"
+                         alt="" />
+                </a>
+            </td>
+            <td height="10" colspan="4" width="404"></td>
+        </tr>
+        <tr>
+            <td height="39" valign="bottom" style="text-align: left">
+                <img src="Images/2.jpg" width="567" />
+            </td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td colspan="3" style="background: url(Images/menu_bg.gif) repeat-x">
+                <img src="Images/menu_left.gif" align="left" style="padding-right: 22px" alt="" /><div class="hom3" style="padding-top: 13px">
+                    <a href='<%=ResolveUrl("~/Default.aspx") %>' class="hom3" style="color: #0089E4;
+                        font-weight: normal">Home</a>&nbsp; | &nbsp; <a href="about.html" class="hom3">
+                        About
+                        Us
+                    </a>&nbsp; | &nbsp; <a href="#" class="hom3">Contact Us</a>&nbsp; |&nbsp;
+                    &nbsp; <a class="hom3" href='<%=ResolveUrl("~/Map.aspx") %>'>Map</a>&nbsp;
+                </div>
+            </td>
+            <td style="background: url(Images/menu_bg.gif) repeat-x" colspan="3">
+                <span style="padding-right: 30px; vertical-align: top;">
+                    <a style="color: #0089E4;
+                    font-weight: bold" class="hom3" href='<%=ResolveUrl("~/Login.aspx") %>'>Login</a>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div id="content" style="width: 100%; height: 400px">
+                    @html.block('body')
+                    <br />
+                    <br />
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div id="footer" class="hom3" style="padding-top: 13px; height: 47px; margin-top: 15px;
+                    text-align: center; background-color: #E7E7E7">
+                    <a href='<%=ResolveUrl("~/Default.aspx") %>' class="hom3" style="color: #0089E4;
+                        font-weight: normal">Home</a>&nbsp; | &nbsp; <a href="about.html" class="hom3">
+                        About
+                        Us
+                    </a>&nbsp; | &nbsp; <a href="#" class="hom3">Contact Us</a>&nbsp; |&nbsp;
+                    &nbsp; <a class="hom3" href='<%=ResolveUrl("~/Map.aspx") %>'>Map</a>
+                    <br />
+                    <div style="padding: 10px 0 5px 0">
+                        Copyright Pharmacepts &copy; in 2014. All rights Reserved
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br />
+</body>
+</html>
